@@ -32,10 +32,6 @@ body {
     background-color: white;
 }
 
-.selectnetwork {
-    display: none;
-}
-
 .walletbutton {
     border-radius: 10px;
     border-color: white;
@@ -50,18 +46,38 @@ body {
     border-radius: 5px;
 }
 
+
+.selectnetwork {
+    background-color: white;
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.selectnetwork ul {
+    list-style: none;
+    padding: 0px 10px;
+}
+
 .dropdownmenu {
-    display: none;
+    background-color: white;
+}
+
+.dropdownmenu ul {
+    list-style: none;
+    padding: 0px 10px;
 }
 
 .form {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     margin: 50px 250px;
-    padding: 10px;
     border-radius: 15px;
+    padding: 0px;
 }
 
 .formheading {
@@ -83,6 +99,7 @@ body {
     border-color: white;
     border-radius: 5px;
     text-align: center;
+    position:   absolute;
     width: 15px;
     height: 15px;
 }
@@ -92,3 +109,10 @@ body {
     text-align: center;
 }
 
+.menuchanger {
+    background-color: white;
+}
+
+.menuchanger ul {
+    list-style: none;
+}
