@@ -9,7 +9,20 @@ body {
     align-items: center;
 }
 
-.menu {
+.menuchanger {
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    padding-left: 0px;
+    margin: 10px;
+}
+
+.menuchanger li {
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.buttons {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,22 +59,29 @@ body {
     border-radius: 5px;
 }
 
-
-.selectnetwork {
-    background-color: white;
-    display: block;
-    text-align: center;
-    padding: 0px 0px;
-    margin: 0px 0px;
+.menus {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.selectnetwork ul {
+.selectnetworkmenu {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.selectnetworkmenu ul {
     list-style: none;
     padding: 0px 10px;
 }
 
+.fa-brands.fa-ethereum {
+    padding: 0px 0px;
+}
+
 .dropdownmenu {
     background-color: white;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .dropdownmenu ul {
@@ -109,10 +129,4 @@ body {
     text-align: center;
 }
 
-.menuchanger {
-    background-color: white;
-}
 
-.menuchanger ul {
-    list-style: none;
-}
