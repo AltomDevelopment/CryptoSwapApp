@@ -1,4 +1,4 @@
-* {
+body {
     background-color: aquamarine;
 }
 
@@ -56,16 +56,39 @@
 
 .form {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    background-color: white;
+    margin: 50px 250px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .formheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px;
+    width: 100%;
 }
 
 .inputfield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputfield i {
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 15px;
+    height: 15px;
 }
 
 .walletbutton {
-
+    display: block;
+    text-align: center;
 }
 
