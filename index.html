@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
+    <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/f543b30968.js" crossorigin="anonymous"></script>
 <title>Crypto App</title>
 </head>
@@ -23,7 +24,7 @@
         <i class="fa-solid fa-caret-down"></i>
         </div>
         <button class="walletbutton">Connect Wallet</button>
-        <i class="fa-solid fa-ellipsis"></i>
+        <i class="fa-solid fa-ellipsis" onclick="showMenu()"></i>
     </div>
     </div>
 </header>
@@ -31,10 +32,10 @@
     <div class="selectnetworkmenu">
         <ul>
         <p>Select a network</p>
-        <li><i class="fa-brands fa-ethereum"></i>Ethereum</li>
-        <li><i class="fa-solid fa-draw-polygon"></i>Polygon</li> 
-        <li><i class="fa-solid fa-draw-polygon"></i>Optimism</li>
-        <li><i class="fa-solid fa-draw-polygon"></i>Arbitrum</li>
+            <li><i class="fa-brands fa-ethereum"></i>Ethereum</li>
+            <li><i class="fa-solid fa-draw-polygon"></i>Polygon</li> 
+            <li><i class="fa-solid fa-draw-polygon"></i>Optimism</li>
+            <li><i class="fa-solid fa-draw-polygon"></i>Arbitrum</li>
         </ul>
     </div>
     <div class="dropdownmenu">
@@ -48,18 +49,19 @@
             <li><i class="fa-solid fa-book-open"></i>Docs</li>
             <li><i class="fa-solid fa-file-lines"></i>Legal & Privacy</li>
         </ul>
-</div>
+    </div>
 </div>
     <div class="form">
         <div class="formheading">
         <p>Swap</p><i class="fa-solid fa-gear"></i>
         </div>
         <div class="inputfield">
-        <input></input>
+        <input class="cryptofield1"></input>
         <i class="fa-solid fa-arrow-down"></i>
-        <input></input>
+        <input class="cryptofield2"></input>
         </div>
         <button class="walletbutton">Connect Wallet</button>
     </div>
 </div>
 </body>
+</html>
