@@ -35,10 +35,6 @@ body {
     margin: 10px;
 }
 
-.networkbutton:hover {
-    display: block;
-}
-
 .fa-brands.fa-ethereum {
     background-color: white;
     padding-left: 5px;
@@ -69,6 +65,7 @@ body {
 }
 
 .selectnetworkmenu {
+    display: none;
     background-color: white;
     border-radius: 5px;
     position: absolute;
@@ -93,7 +90,7 @@ body {
     display: block;
 }
 
-#dropdownmenu ul {
+.dropdownmenu ul {
     list-style: none;
     padding: 0px 10px;
 }
