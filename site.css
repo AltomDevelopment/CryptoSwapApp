@@ -11,10 +11,12 @@ body {
 
 .menuchanger {
     display: flex;
+    background-color: white;
     border: solid;
     border-radius: 10px;
     padding-left: 0px;
     margin: 10px;
+    margin-left: 260px;
 }
 
 .menuchanger li {
@@ -29,6 +31,8 @@ body {
 }
 
 .networkbutton {
+    display: flex;
+    align-items: center;
     padding: 5px;
     background-color: white;
     border-radius: 10px;
@@ -121,6 +125,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
 }
 
 .inputfield i {
@@ -129,22 +134,27 @@ body {
     border-radius: 5px;
     text-align: center;
     position: absolute;
-    top: 10px;
+    top: 190px;
     width: 15px;
     height: 15px;
+    background-color: aquamarine;
 }
 
 .walletbutton {
     display: block;
     text-align: center;
+    width: 90%;
+    background-color: aquamarine;
 }
 
 .cryptofield1 {
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .cryptofield2 {
     margin-bottom: 5px;
+    width: 100%;
 }
 
 
