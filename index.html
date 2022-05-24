@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="site.css">
     <script src="app.js"></script>
+    <script src="./metamask-onboarding.bundle.js"></script>
     <script src="https://kit.fontawesome.com/f543b30968.js" crossorigin="anonymous"></script>
 <title>Crypto App</title>
 </head>
@@ -69,10 +70,10 @@
         <i class="fa-solid fa-x" onclick="closeWalletConnector()"></i>
     </div>
     <div class="walletbuttons">
-        <button>MetaMask</button>
-        <button>WalletConnect</button>
-        <button>Coinbase Wallet</button>
-        <button>Fortmatic</button>
+        <button class="metaMaskWalletButton" onclick="connectMetaMask()">MetaMask</button>
+        <button class="walletConnectButton">WalletConnect</button>
+        <button class="coinbaseWalletButton">Coinbase Wallet</button>
+        <button class="fortmaticButton">Fortmatic</button>
     </div>
 </div>
 </body>
