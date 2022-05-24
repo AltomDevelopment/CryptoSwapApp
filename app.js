@@ -20,3 +20,5 @@ function closeWalletConnector() {
     let button = document.querySelector(".walletconnector");
     button.classList.remove("active")
 }
+
+//git hub commit test
