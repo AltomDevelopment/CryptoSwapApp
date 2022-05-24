@@ -23,7 +23,7 @@
         <i class="fa-brands fa-ethereum"></i>Ethereum
         <i class="fa-solid fa-caret-down"></i>
         </div>
-        <button class="walletbutton">Connect Wallet</button>
+        <button class="walletbutton" onclick="displayWalletConnector()">Connect Wallet</button>
         <i class="fa-solid fa-ellipsis" onclick="showMenu()"></i>
     </div>
     </div>
@@ -56,11 +56,23 @@
         <p>Swap</p><i class="fa-solid fa-gear"></i>
         </div>
         <div class="inputfield">
-        <input class="cryptofield1"></input>
+        <input class="cryptofield1" placeholder="0.0"></input>
         <i class="fa-solid fa-arrow-down"></i>
-        <input class="cryptofield2"></input>
+        <input class="cryptofield2" placeholder="0.0"></input>
         </div>
-        <button class="walletbutton">Connect Wallet</button>
+        <button class="walletbutton" onclick="displayWalletConnector()">Connect Wallet</button>
+    </div>
+</div>
+<div class="walletconnector">
+    <div class="heading">
+        <p>Connect a wallet</p>
+        <i class="fa-solid fa-x" onclick="closeWalletConnector()"></i>
+    </div>
+    <div class="walletbuttons">
+        <button>MetaMask</button>
+        <button>WalletConnect</button>
+        <button>Coinbase Wallet</button>
+        <button>Fortmatic</button>
     </div>
 </div>
 </body>

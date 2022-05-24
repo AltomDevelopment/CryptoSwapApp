@@ -157,4 +157,38 @@ body {
     width: 100%;
 }
 
+.walletconnector {
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    bottom:200px;
+    left: 325px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 300px;
+    height: 225px;
+}
+
+.walletconnector.active {
+    display: block;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.walletbuttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.walletbuttons button {
+    padding: 5px;
+    margin: 5px;
+}
+
+
 
